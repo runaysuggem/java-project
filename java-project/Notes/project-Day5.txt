@@ -1,0 +1,107 @@
+Steps to push the code in GITHUB
+==================================
+step1:
+-----
+	create a remote repository in GITHUB.
+	ex:
+	https://github.com/NiyazulHasan/java-project	
+
+
+step2:
+-------
+	Download and install git software.
+	ex:
+		https://git-scm.com/downloads
+
+step2:
+-------
+	Create a Java-Project folder inside any drive.
+
+step3:
+-----
+	Copy and paste the project inside the folder.
+	
+
+step4:
+------
+	Open a bash  from "Training" folder.
+	ex:
+		right click inside "Java-Project" folder--> Git Bash Here.
+
+step5:
+------
+	Initialized empty Git repository.
+	ex:
+		bash> git init
+
+
+step6:
+-----
+	See the current branch name of local repository .
+	ex:
+		bash> git branch
+
+step7:
+----
+	Move from master branch to main branch.
+	ex:
+		bash> git branch --move master main
+
+step8:
+-----
+	Up stream the main branch.
+	ex:
+		bash> git push --set-upstream origin main
+
+
+step9:
+-----
+	To check the status in git.
+	ex:
+		bash> git status
+step10:
+-------
+	Add the folders and files to commit.
+	ex:
+		bash> git add .
+		
+step11:
+------
+	Again check the status in git.
+	ex:
+		bash> git status
+
+step12:
+--------
+	commit the files into master branch.
+	ex:
+		bash> git commit -m "My Project Code"
+
+step13:
+--------
+	add remote origin to git.
+	ex:
+	bash> git remote add origin https://github.com/NiyazulHasan/java-project
+
+step14:
+-------
+	push the project to master branch.
+	ex:
+		bash> git push origin main
+		or
+		bash> git push -f origin main
+
+step15:
+--------
+	Goto github reposority and represent the web page
+	ex:
+		https://github.com/NiyazulHasan/java-project
+
+
+step16:
+------
+	We can clone the project by using below command.
+	ex:
+		bash> git clone  https://github.com/NiyazulHasan/java-project
+
+
